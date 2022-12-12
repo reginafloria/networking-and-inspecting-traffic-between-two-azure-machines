@@ -59,7 +59,7 @@ Part 1 (Create our Resources)
 <img src="https://imgur.com/4fP5DNV.jpg" height="80%" width="80%" alt="Pinging between vm1 and vm2"/>
 </p>
 <p>
-Pinging between vm1 and vm2 through ICMP which is the command for pinging.
+Pinging between vm1 and vm2 through ICMP which is the protocol for pinging showing connectivity.
   
 - For example the source IP address on row 1 is 10.0.0.4 and the destination IP address is 10.0.0.5. 
   
@@ -82,9 +82,25 @@ Part 2 (Observe ICMP Traffic)
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/oRk6F9l.jpg" height="80%" width="80%" alt="Observing ssh traffic"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Part 2 (Observe SSH Traffic)
+  
+20. Back in Wireshark, filter for SSH traffic only
+21. From your Windows 10 VM, “SSH into” your Ubuntu Virtual Machine (via its private IP address)
+22. Type commands (ls, pwd, etc) into the linux SSH connection and observe SSH traffic spam in WireShark
+23. Exit the SSH connection by typing ‘exit’ and pressing [Enter]
+
 </p>
 <br />
+
+
+
+
+
+
+
+
+
+
