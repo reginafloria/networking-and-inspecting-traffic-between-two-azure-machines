@@ -85,6 +85,8 @@ Part 2 (Observe ICMP Traffic)
 <img src="https://imgur.com/oRk6F9l.jpg" height="80%" width="80%" alt="Observing ssh traffic"/>
 </p>
 <p>
+SSH stands for Secure Shell and is used for secure remote login from one virtual machine to another.
+
 Part 2 (Observe SSH Traffic)
   
 20. Back in Wireshark, filter for SSH traffic only
@@ -93,7 +95,9 @@ Part 2 (Observe SSH Traffic)
 23. Exit the SSH connection by typing ‘exit’ and pressing [Enter]
 
 </p>
-<br />
+
+
+
 
 
 
