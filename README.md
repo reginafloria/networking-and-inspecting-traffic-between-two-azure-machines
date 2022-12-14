@@ -96,6 +96,54 @@ Part 2 (Observe SSH Traffic)
 
 </p>
 
+<img src="https://imgur.com/LMWuS15.jpg" height="80%" width="80%" alt="Topology of the Azure Resources"/>
+</p>
+<p>
+  DHCP (Dynamic Host Configuration Protocol) is a server which manages IP addresses and assigns them to clients.
+  
+  Part 2 (Observe DHCP Traffic)
+  
+24. Back in Wireshark, filter for DHCP traffic only
+25. From your Windows 10 VM, attempt to issue your VM a new IP address from the command line (ipconfig /renew)
+26. Observe the DHCP traffic appearing in WireShark
+
+<img src="https://imgur.com/U5yg8GA.jpg" height="80%" width="80%" alt="Observing ssh traffic"/>
+</p>
+<p>
+  DNS Domain Name System) is like a directory and matches domain names with IP addresses. On the first row it
+  matches google.com to an IP address.
+  
+  Part 2 (Observe DNS Traffic)
+  
+27. Back in Wireshark, filter for DNS traffic only
+28. From your Windows 10 VM within a command line, use nslookup to see what google.com and disney.com’s IP addresses are
+29. Observe the DNS traffic being show in WireShark
+  
+  <img src="https://imgur.com/apAMizX.jpg" height="80%" width="80%" alt="Topology of the Azure Resources"/>
+</p>
+<p>
+  RDP (Remote Desktop Protocol) also known as tcp==3389 is a network communication protocol which allows users to connect
+  with another computer from a remote location.
+  
+  Part 2 (Observe RDP Traffic)
+  
+30. Back in Wireshark, filter for RDP traffic only (tcp.port == 3389)
+31. Oserve the immediate non-stop spam of traffic? Why do you think it’s non-stop spamming vs only showing traffic when you do an activity?
+32. Answer: because the RDP (protocol) is constantly showing you a live stream from one computer to another, therefor traffic is always being transmitted
+
+  
+  
+
+
+  
+  
+</p>
+<p>
+
+  
+  
+
+
 
 
 
